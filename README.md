@@ -1,4 +1,5 @@
 podscribbler
 ============
 
-Podcast transciption tool
+This might be a podcast transciption tool one day.
+
