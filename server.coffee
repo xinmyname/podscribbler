@@ -1,5 +1,7 @@
 app = require('express').createServer()
 
+app.use require('connect-assets')()
+
 app.set 'view options', { layout: false }
 
 app.get '/', (req,res) ->

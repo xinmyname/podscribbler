@@ -1,2 +1,2 @@
-web: coffee index.coffee
+web: coffee server.coffee
 
