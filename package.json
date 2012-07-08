@@ -6,14 +6,15 @@
         "jade": "0.26.x",
         "coffee-script": "1.3.x",
         "connect-assets": "2.2.x",
-        "less": "1.3.x"
+        "less": "1.3.x",
+        "backbone": "0.9.x"
     },
     "engines": {
         "node": "0.6.x"
     },
     "scripts": {       
-        "start" : "foreman start",
-        "postinstall" : "sh ./deployclientassets.sh" 
+        "start" : "foreman start" ,
+        "postinstall" : "node_modules/.bin/coffee ./deployclientassets.coffee" 
     }
 }
 
